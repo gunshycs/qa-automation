@@ -36,3 +36,22 @@ Built with Python and Selenium WebDriver, it covers core QA automation skills in
    ```bash
    git clone https://github.com/yourusername/qa-automation.git
    cd qa-automation
+   
+2. **Create & activate a virtual environment:**  
+   ```bash
+   python -m venv venv
+   .\venv\Scripts\activate  # Windows
+   source venv/bin/activate # macOS/Linux
+3. **Intall Dependencies:**
+   ```bash
+   pip install -r requirments.txt
+
+ 5. ***Ensure ChromeDriver is installed and in your PATH:***
+   - Download the matching ChromeDriver version from https://chromedriver.chromium.org/downloads and add it to your system PATH or place it in the drivers/ folder.
+  
+## Running Tests
+Run Individual tests with:
+```bash
+python tests/[name of test].py
+
+   
